@@ -109,9 +109,9 @@ screenshots/
 
 Feel free to connect, collaborate, or discuss opportunities in software development, AI/ML, and emerging technologies.
 
-- GitHub: https://github.com/your-username
-- LinkedIn: https://linkedin.com/in/your-profile
-- Email: your-email@example.com
+- GitHub: https://github.com/cat-eng24am0040
+- LinkedIn: https://linkedin.com/in/keerthana-ju-280ba4315
+- Email: eng24am0040@dsu.edu.in
 
 ---
 
