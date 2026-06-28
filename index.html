@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/skins/color-1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style-switcher.css">
 </head>
 <body>
     <!-- ====== Main Container Start ====== -->
@@ -33,7 +34,7 @@
         <!-- ====== Main Content Start ====== -->
         <div class="main-content">
             <!-- ====== Home Section Start ====== -->
-             <section class="home section hidden"> 
+             <section class="home section "> 
                 <div class="con">
                     <div class="row">
                         <div class="home-info">
@@ -50,7 +51,7 @@
              </section>
             <!-- ====== Home Section End ====== -->
             <!-- ====== About Section Start ====== -->
-            <section class="about section hidden">
+            <section class="about section ">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -208,7 +209,7 @@
             </section>
             <!-- ====== About Section end ====== -->
             <!-- ====== Services Section Start ====== -->
-            <section class="service section hidden">
+            <section class="service section ">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -286,7 +287,7 @@
             </section>
             <!-- ====== Services Section end ====== -->
             <!-- ====== Portfolio Section Start ====== -->
-            <section class="portfolio section hidden">
+            <section class="portfolio section ">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -401,14 +402,14 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="form-item col-6 padd-15">
+                                <div class="form-item col-12 padd-15">
                                     <div class="form-group">
                                         <input type="text" class="form-control" placeholder="Subject">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="form-item col-6 padd-15">
+                                <div class="form-item col-12 padd-15">
                                     <div class="form-group">
                                         <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
                                     </div>
@@ -428,6 +429,24 @@
         
     </div>
     <!-- ====== Main Container End ====== -->
+    <!--=====Style Switcher Start=====-->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-skin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas fa-moon"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!--=====Style Switcher End=====-->
     <!-- ====== JS files ====== -->
     <script src="backend/script.js"></script>
 </body>
