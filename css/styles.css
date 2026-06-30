@@ -2,11 +2,21 @@
 
 :root
 {
-    --main-background:#f2f2fc;
-    --sidebar:#fdf9ff;
-    --secondary-bg:#e8dfec;
-    --text-main:#302e4d;
-    --text-secondary:#504e70;
+    /* Light Theme */
+    --main-background: #F7F4D5;   /* Beige */
+    --sidebar: #FFFFFF;
+    --secondary-bg: #E8F0C9;      /* Lighter Moss Green */
+    --text-main: #0A3323;         /* Dark Green */
+    --text-secondary: #5E7452;    /* Muted Green */
+    --accent: #839958;            /* Moss Green */
+}
+body.dark{
+    --main-background:#1B1F1C;
+    --sidebar:#252A26;
+    --secondary-bg:#303733;
+    --text-main:#F7F4D5;
+    --text-secondary:#C8D2C2;
+    --accent:#839958;
 }
 body{
     margin:0;
@@ -509,6 +519,7 @@ h3.my-profession{
     flex: 0 0 50%;
     max-width: 50%;
     margin-top: 30px;
+    color: var(--skin-color);
 }
 
 .about .about-content .title h3{

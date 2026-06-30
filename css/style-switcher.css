@@ -64,21 +64,21 @@
 }
 
 .style-switcher .color-1{
-    background: #ec1839;
+    background: #839958;   /* Moss Green */
 }
 
 .style-switcher .color-2{
-    background: #fa5b0f;
+    background: #0A3323;   /* Dark Green */
 }
 
 .style-switcher .color-3{
-    background: #37b182;
+    background: #105666;   /* Midnight Green */
 }
 
 .style-switcher .color-4{
-    background: #1854b4;
+    background: #D3968C;   /* Rosy Brown */
 }
 
 .style-switcher .color-5{
-    background: #f021b2;
+    background: #C2A878;   /* Warm Beige/Gold */
 }
